@@ -1,0 +1,40 @@
+body {
+    background-color: cyan;
+
+}
+
+button {
+    font-size: 20px;
+    background-color: pink;
+
+}
+
+#signup {
+    background-color: purple;
+    color: yellow
+}
+
+h1, h2 {
+    color: red
+
+}
+
+span {
+    color: white
+
+}
+
+input + button {
+    color: white
+}
+
+input[type="password"] {
+    color: greenyellow;
+
+}
+
+button:hover {
+    background-color: blue;
+    color: white
+
+}

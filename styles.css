@@ -1,3 +1,21 @@
 h1 {
-    color: indigo
+    text-align: center;
+    font-weight: 400;
+    text-decoration: red overline wavy;
+    letter-spacing: 15px;
+    font-size: 60px;
+    font-family: fantasy;
+    text-transform: uppercase;
+
+}
+
+p {
+    text-align: center;
+    line-height: 2;
+
+}
+
+a {
+    text-decoration: none;
+
 }

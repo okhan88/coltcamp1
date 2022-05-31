@@ -107,6 +107,47 @@ CSS has a ton of more properties compared to HTML, but you do not to memorize al
 
 when preparing separate documents for HTML and CSS, on the HTML doc you need to include the <link> element and for the href, you type in the name of the CSS file
 
+-------------------------------------------------------------------------------------
+
+section 7
+
+
+ID selector- if an element has an id named "logout", you can specifically style it like this:
+        #logout {
+            color: green
+        }
+
+Class selector- if an element has a class named "complete", you can specifically style it like this:
+
+        .complete {
+            color:green
+        }
+
+descendant selector- for example, you want to select all <a>'s that are nested inside an <li>:
+        li a {
+            color: green
+        }
+    this will select all anchor tags found within an <li>
+
+
+adjacent selector- if you want to specifcially customize an element that comes after another element, use this. For example, if you want only the buttons after an h2 to be black, do this:
+        h2 + button {
+            color: black;
+        }
+
+
+attribute selector- use this in order to select elements based on certain type. For example, if you are only trying to select elements with the type "text", do this:
+
+        input[type="text"] {
+            color: green
+        }
+
+pseudo classes- keyword added to a selector that specifies a special state of the selected element(s). need to include a colon before the keyowrd. Some examples of keywords:
+        :active
+        :hover
+        :checked
+        :not()
+        :nth-child()
 
 
 
