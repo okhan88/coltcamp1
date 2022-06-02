@@ -38,3 +38,16 @@ button:hover {
     color: white
 
 }
+
+h2::first-letter {
+    font-size: 80px;
+
+}
+
+p::first-line {
+    color:purple
+}
+
+::selection {
+    color: yellow
+}

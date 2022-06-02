@@ -149,8 +149,50 @@ pseudo classes- keyword added to a selector that specifies a special state of th
         :not()
         :nth-child()
 
+psuedo elements: keyword added to a selector that lets you style a particular part of an element. Some examples are:
+        ::after
+        ::before
+        ::first-letter
+        ::first-line
+        ::selection
+
+cascade- the order your styles are declared matters. If you declare the H1 color to be blue and then later declare the h1 color be black, the black will win since that is the last one you declared
+
+when it comes to specificity, if you declare a specific element to be a certain color, it will stick to that color even if a general declaration is made to change the color
+        most specific to least specific: id - class - element
 
 
+
+------------------------------------------------------------------------
+
+Section 8: The CSS box model
+
+
+Border properties- three main things
+        border color
+        border width
+        border style
+
+when writing the code, instead of doing each individual property for borders, you can use the following shorthand:
+    border: width style color
+
+border-radius element will make rounded corners
+
+padding is the space between the text and the borer
+
+margin is the spacing on the outside between other stuff. similar setup to padding
+
+display property- very important. Had three main elements 
+        inline
+        block
+        inline block
+
+
+CSS units
+        em: these are units relative to the parent's size
+            with font size, 1 em equals the font size of the parent, 2 em equals twice the font size of the parent, etc
+
+            with all other properties, 1 em is equal to the computed font size of the element itself
 -->
 
 
